@@ -1,0 +1,8 @@
+def reverse_string(string):
+    words = string.split()
+    reversed_words = words[::-1] 
+    reversed_string = ' '.join(reversed_words)
+    return reversed_string
+input_string = "Hello World! OpenAI is awesome!"
+reversed_string = reverse_string(input_string)
+print(reversed_string)
